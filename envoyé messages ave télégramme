@@ -1,0 +1,8 @@
+<?php
+$botToken = "5377558362:AAFWBlmWWbL6x9odOwy6ligAOt00vM9TyBk";
+$chat_id = "5026870012";
+$message = "opla c'est jhonson";
+$bot_url    = "https://api.telegram.org/bot$botToken/";
+$url = $bot_url."sendMessage?chat_id=".$chat_id."&text=".urlencode($message);
+file_get_contents($url);
+?>
