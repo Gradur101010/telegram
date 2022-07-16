@@ -6,3 +6,10 @@ $bot_url    = "https://api.telegram.org/bot$botToken/";
 $url = $bot_url."sendMessage?chat_id=".$chat_id."&text=".urlencode($message);
 file_get_contents($url);
 ?>
+
+
+
+https://api.telegram.org/bot5377558362:AAFWBlmWWbL6x9odOwy6ligAOt00vM9TyBk/sendMessage?chat_id=5026870012&text=
+
+
+https://api.telegram.org/bot5377558362:AAFWBlmWWbL6x9odOwy6ligAOt00vM9TyBk/getupdates
